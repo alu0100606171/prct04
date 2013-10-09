@@ -1,5 +1,6 @@
 #! /usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 
+
 # DATOS
 a = Array.new
 b = Array.new
@@ -42,6 +43,16 @@ for i in 0...m do
         suma[i][j] = 0
         mult[i][j] = 0
     end
+end
+
+########
+# SUMA #
+########
+
+for i in 0...m do
+	for j in 0...n do
+		suma[i][j] = a[i][j] + b[i][j]
+	end
 end
 
 ############
